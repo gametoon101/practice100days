@@ -13,8 +13,12 @@ const App = () => {
 
   return (
     <div>
+      <p className="text-3xl">100 Days of Learning ReactJS</p>
+      <br />
       <Header people={people} addPerson={addPerson} />
+      <br />
       <PracButton />
+      <br />
       <Day07 />
     </div>
   );
