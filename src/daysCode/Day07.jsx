@@ -21,7 +21,7 @@ const Day07 = () => {
     <div>
       <h2 className="text-2xl">DAY 7 - Rendering Components Conditionally</h2>
       <div className="space-x-3">
-        <p className="text-xl">ARE YOU BUEATIFUL?</p>
+        <p className="text-xl">ARE YOU BEAUTIFUL?</p>
         <button
           className="w-12 p-2 bg-gradient-to-l from-cyan-300 to-teal-300 rounded-lg"
           onClick={handleOnClick1}

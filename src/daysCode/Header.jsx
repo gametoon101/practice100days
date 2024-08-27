@@ -21,7 +21,7 @@ const Header = ({ people, addPerson }) => {
 
   return (
     <div>
-      <p className="text-2xl">DAY 1 - 5(exagerated.. hehe)</p>
+      <p className="text-2xl">DAY 1 - 5(exaggerated.. hehe)</p>
       <form className="flex gap-3" onSubmit={handleOnSubmit}>
         <input
           className="p-0.5 border-2 border-black  rounded-md"
