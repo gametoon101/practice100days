@@ -14,7 +14,7 @@ const App = () => {
     setPeople((prevPeople) => [...prevPeople, newPerson]);
 
   return (
-    <div>
+    <div className="m-5">
       <p className="text-3xl">100 Days of Learning ReactJS</p>
       <br />
       <Header people={people} addPerson={addPerson} />
